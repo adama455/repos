@@ -7,8 +7,10 @@
     <title>Document</title>
 </head>
 <body>
-    for(i=0; i=12; i++){
-        <h1>Bonjour tout le Monde</h1>
-    }
+    <?php
+    for($i=0; $i<12; $i++){
+        echo '<h1>Bonjour tout le Monde</h1>';
+    };
+    ?>
 </body>
 </html>
